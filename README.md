@@ -1,5 +1,7 @@
 # GroupA-CS586-Fall2020
 
+**Team Members:** Masood Ali, Hiral Athwani, Chien-Chia Chen, Ellen Kidane
+
 We performed an ontology matching between ChemOnt and RXNO, using `vocabulary.owl` from PubChem as a mediating ontology.
 
 Files in this repository:
