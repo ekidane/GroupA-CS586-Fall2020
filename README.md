@@ -4,7 +4,7 @@
 
 We performed an ontology matching between ChemOnt and RXNO, using `vocabulary.owl` from PubChem as a mediating ontology.
 
-Files in this repository:
+**Files in this repository:**
 1. `AML_v3.1`: We've placed a copy of AML v3.1 in this repository. This version contains a copy of `vocabulary.owl` pre-loaded as a mediating ontology. The latest version of the original AML can be downloaded from their [GitHub Repository](https://github.com/AgreementMakerLight/AML-Project).
 2. `chemont_owl.owl` and `rxno.obo`: Source and target ontologies.
 3. `vocabulary.owl`: Mediating ontology from PubChem.
@@ -12,7 +12,7 @@ Files in this repository:
 5. `chemont-rxno-vocabulary-final.tsv`: Mapping result after manual evaluation of the AML result.
 6. `new_ontology.owl`: New ontology made with missed mappings from AML.
 
-Steps to reproduce the results that we observed are given below.
+**Steps to reproduce the results that we observed are given below.**
 
 1. Clone this repository:
 
