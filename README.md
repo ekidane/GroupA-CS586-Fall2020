@@ -10,7 +10,7 @@ We performed an ontology matching between ChemOnt and RXNO, using `vocabulary.ow
 3. `vocabulary.owl`: Mediating ontology from PubChem.
 4. `chemont-rxno-vocabulary.tsv`: Mapping result from AML.
 5. `chemont-rxno-vocabulary-final.tsv`: Mapping result after manual evaluation of the AML result.
-6. `new_ontology.owl`: OWL version of the final mappings.
+6. `new_ontology.owl`: OWL version of the final mappings, including those not found by AML.
 
 **Steps to reproduce the results that we observed are given below.**
 
