@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/scully/ontologies/2020/10/untitled-ontology-37"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/scully/ontologies/2020/10/untitled-ontology-37">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#acyloin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alkylamines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aromatic_amines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#carbonyl_compounds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#carboxylic_acid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#carboxylic_ester"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cyclic_compounds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cyclopropane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#epoxide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flavone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hetrocyclic_compounds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#isoflavone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lactones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nitriles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#organonitrogen_compounds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#organosulfur_heterocyclic_compound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#organoxygen_compounds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oxacycle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#primary_amines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pyrimidine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quinoline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#secondary_amines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tertiary_amines"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#acyloin"/>
+        <Class IRI="#carbonyl_compounds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alkylamines"/>
+        <Class IRI="#amines"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amines"/>
+        <Class IRI="#organonitrogen_compounds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aromatic_amines"/>
+        <Class IRI="#amines"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#carbonyl_compounds"/>
+        <Class IRI="#organoxygen_compounds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#carboxylic_acid"/>
+        <Class IRI="#carbonyl_compounds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#carboxylic_ester"/>
+        <Class IRI="#carbonyl_compounds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cyclopropane"/>
+        <Class IRI="#cyclic_compounds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#epoxide"/>
+        <Class IRI="#organoxygen_compounds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flavone"/>
+        <Class IRI="#cyclic_compounds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flavone"/>
+        <Class IRI="#organoxygen_compounds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hetrocyclic_compounds"/>
+        <Class IRI="#cyclic_compounds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#isoflavone"/>
+        <Class IRI="#flavone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lactones"/>
+        <Class IRI="#cyclic_compounds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lactones"/>
+        <Class IRI="#organoxygen_compounds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nitriles"/>
+        <Class IRI="#organonitrogen_compounds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#organosulfur_heterocyclic_compound"/>
+        <Class IRI="#cyclic_compounds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oxacycle"/>
+        <Class IRI="#cyclic_compounds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#primary_amines"/>
+        <Class IRI="#amines"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pyrimidine"/>
+        <Class IRI="#hetrocyclic_compounds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quinoline"/>
+        <Class IRI="#cyclic_compounds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#secondary_amines"/>
+        <Class IRI="#amines"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tertiary_amines"/>
+        <Class IRI="#amines"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

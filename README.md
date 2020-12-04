@@ -8,6 +8,7 @@ Files in this repository:
 3. `vocabulary.owl`: Mediating ontology from PubChem.
 4. `chemont-rxno-vocabulary.tsv`: Mapping result from AML.
 5. `chemont-rxno-vocabulary-final.tsv`: Mapping result after manual evaluation of the AML result.
+6. `new_ontology.owl`: New ontology made with missed mappings from AML.
 
 Steps to reproduce the results that we observed are given below.
 
